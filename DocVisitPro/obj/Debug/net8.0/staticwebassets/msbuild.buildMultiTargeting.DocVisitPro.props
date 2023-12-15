@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DocVisitPro.props" />
+</Project>

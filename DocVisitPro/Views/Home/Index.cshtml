@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Doctor appointment"] = "Doctor appointment";
+}
+
+
+<style>
+    .img-fluid {
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .btn.btn-primary.btn-lg {
+        font-size: 17px;
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-6">
+        <a>
+            <img src="https://img.freepik.com/free-photo/hands-unrecognizable-female-doctor-writing-form-typing-laptop-keyboard_1098-20374.jpg?w=740&t=st=1702628217~exp=1702628817~hmac=9234957a5961a12b01741bd189d18828388be2fa7c155386866b9827af54837a" alt="Doctor" class="img-fluid" />
+        </a>
+    </div>
+    <div class="col-md-6">
+        <p>ჩვენი გამოცდილი ექიმები მზად არიან გაგიწიოთ თქვენს საჭიროებებზე მორგებული მაღალი ხარისხის ჯანდაცვის მომსახურება.</p>
+        <div class="jumbotron">
+            <h4>ჩვენ ვზრუნავთ თქვენს ჯანმრთელობაზე</h4>
+            <p>დაჯავშნე ვიზიტი ექიმთან დღესვე</p>
+            <a class="btn btn-primary btn-lg" href="@Url.Action("BookAppointment", "Appointment")">ვიზიტის დაჯავშნა</a>
+        </div>
+    </div>
+</div>
